@@ -1,16 +1,185 @@
-# React + Vite
+# Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Overview
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+Weather App is a frontend application built using **React.js** that provides real-time weather information for any city. The application fetches live weather data using the **OpenWeather API** and displays temperature, humidity, wind speed, and weather conditions dynamically.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+---
+
+
+
+## Tech Stack
+
+
+
+* React.js
+
+* JavaScript
+
+* HTML5
+
+* CSS3
+
+* OpenWeather API
+
+* Axios
+
+* Vite
+
+
+
+---
+
+
+
+## Features
+
+
+
+* Search weather by city name
+
+* Real-time weather data integration
+
+* Display current temperature
+
+* Show humidity percentage
+
+* Display wind speed
+
+* Dynamic weather icons based on conditions
+
+* Responsive user interface
+
+
+
+---
+
+
+
+## Project Structure
+
+
+
+```text id="wa5"
+
+src/
+
+public/
+
+package.json
+
+package-lock.json
+
+vite.config.js
+
+index.html
+
+```
+
+
+
+---
+
+
+
+## How to Run Project
+
+
+
+Install dependencies:
+
+
+
+```bash id="wa6"
+
+npm install
+
+```
+
+
+
+Run project:
+
+
+
+```bash id="wa7"
+
+npm run dev
+
+```
+
+
+
+Open browser:
+
+
+
+```text id="wa8"
+
+http://localhost:5173
+
+```
+
+
+
+---
+
+
+
+## API Used
+
+
+
+OpenWeather API for real-time weather information.
+
+
+
+---
+
+
+
+## Learning Outcomes
+
+
+
+This project helped me improve understanding of:
+
+
+
+* React Components
+
+* API Integration
+
+* State Management
+
+* Handling User Input
+
+* Dynamic UI Rendering
+
+* Frontend Development
+
+
+
+---
+
+
+
+## Author
+
+
+
+**Sobhraj Rajput**
+
+Frontend Developer | React.js Developer
+
+
+
+Karachi, Pakistan
+
+<img width="1912" height="922" alt="Screenshot 2026-06-28 023419" src="https://github.com/user-attachments/assets/19fad143-2e4a-4bd7-9411-596bebb82cab" />
